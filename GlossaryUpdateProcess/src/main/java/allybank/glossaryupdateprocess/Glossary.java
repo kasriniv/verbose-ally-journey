@@ -114,7 +114,10 @@ public class Glossary implements java.io.Serializable
    {
       this.reviewer = reviewer;
    }
-
+public String toString()
+{
+    return this.termid+":"+this.termname+":"+this.associatedBU+":"+this.editstatus+":"+this.reviewer+":"+"alldone";
+}
    public Glossary(java.lang.String termid, java.lang.String termname,
          java.lang.String associatedBU, java.lang.Boolean editstatus,
          java.lang.Boolean reviewstatus, java.lang.Boolean approvestatus,
