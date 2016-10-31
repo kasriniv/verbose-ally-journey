@@ -8,5 +8,5 @@ rule "ktestgrl"
 	when
 		gl : Glossary( associatedBU == "MortgageOther" )
 	then
-		gl.setReviewer( "MortgageGroup" );
+		gl.setReviewer( "MortgageGroupOther" );
 end
