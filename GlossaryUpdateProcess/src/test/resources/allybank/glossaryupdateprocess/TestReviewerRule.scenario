@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>associatedBU</name>
-          <value>CapitalMarkets</value>
+          <value>MortgageOther</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -16,7 +16,7 @@
       <isModify>false</isModify>
     </fact-data>
     <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>ktest</name>
+      <name>ktest2</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>0</executionTimeResult>
