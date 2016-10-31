@@ -9,20 +9,7 @@
     <width>-1</width>
   </descriptionCol>
   <metadataCols/>
-  <attributeCols>
-    <attribute-column52>
-      <typedDefaultValue>
-        <valueString>reviewrule</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </typedDefaultValue>
-      <hideColumn>true</hideColumn>
-      <width>-1</width>
-      <attribute>ruleflow-group</attribute>
-      <reverseOrder>false</reverseOrder>
-      <useRowNumber>false</useRowNumber>
-    </attribute-column52>
-  </attributeCols>
+  <attributeCols/>
   <conditionPatterns>
     <Pattern52>
       <factType>Glossary</factType>
@@ -113,11 +100,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Mortgage</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -141,11 +123,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>CapitalMarkets</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -161,11 +138,6 @@
         <valueNumeric class="int">3</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
