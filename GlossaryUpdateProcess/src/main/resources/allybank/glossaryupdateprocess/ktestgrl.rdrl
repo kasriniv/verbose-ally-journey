@@ -9,4 +9,5 @@ rule "ktestgrl"
 		gl : Glossary( associatedBU == "MortgageOther" )
 	then
 		gl.setReviewer( "MortgageGroupOther" );
+		System.out.println("reviewer set to MortgageGroupOther");
 end
