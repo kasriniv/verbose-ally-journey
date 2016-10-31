@@ -3,7 +3,15 @@
 <property name="name" value="reviewtask-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="4" name="Glossary_reviewer" type="InputText" id="1296035790">
+<field position="0" name="Glossary_associatedBU" type="InputText" id="1014958340">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;associatedBU (Glossary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="Glossary/associatedBU"/>
+<property name="outputBinding" value="Glossary/associatedBU"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="Glossary_reviewer" type="InputText" id="1296035790">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;reviewer (Glossary)quot;"/>
 <property name="readonly" value="false"/>
@@ -11,55 +19,7 @@
 <property name="outputBinding" value="Glossary/reviewer"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="Glossary_editstatus" type="CheckBox" id="1221347870">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;editstatus (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/editstatus"/>
-<property name="outputBinding" value="Glossary/editstatus"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="5" name="Glossary_reviewstatus" type="CheckBox" id="1205492361">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;reviewstatus (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/reviewstatus"/>
-<property name="outputBinding" value="Glossary/reviewstatus"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="8" name="Glossary_termname" type="InputText" id="579413836">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;termname (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/termname"/>
-<property name="outputBinding" value="Glossary/termname"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="6" name="Glossary_sendtoMDM" type="CheckBox" id="1647332006">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;sendtoMDM (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/sendtoMDM"/>
-<property name="outputBinding" value="Glossary/sendtoMDM"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="0" name="Glossary_approvestatus" type="CheckBox" id="629173239">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;approvestatus (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/approvestatus"/>
-<property name="outputBinding" value="Glossary/approvestatus"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="3" name="Glossary_publishstatus" type="CheckBox" id="310727293">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;publishstatus (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/publishstatus"/>
-<property name="outputBinding" value="Glossary/publishstatus"/>
-<property name="fieldClass" value="java.lang.Boolean"/>
-</field>
-<field position="7" name="Glossary_termid" type="InputText" id="66948228">
+<field position="2" name="Glossary_termid" type="InputText" id="66948228">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;termid (Glossary)quot;"/>
 <property name="readonly" value="false"/>
@@ -67,12 +27,12 @@
 <property name="outputBinding" value="Glossary/termid"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="Glossary_associatedBU" type="InputText" id="1014958340">
+<field position="3" name="Glossary_termname" type="InputText" id="579413836">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;associatedBU (Glossary)quot;"/>
+<property name="label" value="quot;enquot;,quot;termname (Glossary)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/associatedBU"/>
-<property name="outputBinding" value="Glossary/associatedBU"/>
+<property name="inputBinding" value="Glossary/termname"/>
+<property name="outputBinding" value="Glossary/termname"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
 <dataHolder inputId="Glossary" name="#E9E371" type="dataModelerEntry" outId="Glossary" value="allybank.glossaryupdateprocess.Glossary" id="Glossary"/>
