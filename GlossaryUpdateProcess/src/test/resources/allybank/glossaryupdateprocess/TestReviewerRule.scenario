@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>associatedBU</name>
-          <value>Mortgage</value>
+          <value>CapitalMarkets</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -20,22 +20,25 @@
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>0</executionTimeResult>
-      <numberOfRulesFired>0</numberOfRulesFired>
+      <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>reviewer</fieldName>
           <expected>whatever</expected>
+          <actualResult>MortgageGroup</actualResult>
+          <successResult>false</successResult>
+          <explanation>[g] field [reviewer] was [MortgageGroup] expected [whatever].</explanation>
           <operator>==</operator>
-          <nature>0</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>g</name>
       <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-31 17:16:56.473 UTC</lastRunResult>
+  <lastRunResult>2016-10-31 17:23:55.509 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>allybank.glossaryupdateprocess</packageName>
