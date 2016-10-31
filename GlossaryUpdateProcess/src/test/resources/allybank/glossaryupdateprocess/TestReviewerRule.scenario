@@ -15,9 +15,6 @@
       <name>g</name>
       <isModify>false</isModify>
     </fact-data>
-    <org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
-      <name>reviewrule</name>
-    </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
       <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
@@ -38,7 +35,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-31 17:08:34.581 UTC</lastRunResult>
+  <lastRunResult>2016-10-31 17:12:38.389 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>allybank.glossaryupdateprocess</packageName>
