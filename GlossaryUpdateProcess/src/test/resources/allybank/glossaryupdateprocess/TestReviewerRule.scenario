@@ -38,7 +38,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-31 17:05:29.323 UTC</lastRunResult>
+  <lastRunResult>2016-10-31 17:07:10.511 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>allybank.glossaryupdateprocess</packageName>
