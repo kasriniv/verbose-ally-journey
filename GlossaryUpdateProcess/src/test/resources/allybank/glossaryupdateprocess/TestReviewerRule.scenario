@@ -26,19 +26,16 @@
       <fieldValues>
         <expect-field>
           <fieldName>reviewer</fieldName>
-          <expected>ktest</expected>
-          <actualResult></actualResult>
-          <successResult>false</successResult>
-          <explanation>[Glossary] field [reviewer] was [] expected [ktest].</explanation>
+          <expected>whatever</expected>
           <operator>==</operator>
-          <nature>1</nature>
+          <nature>0</nature>
         </expect-field>
       </fieldValues>
-      <name>Glossary</name>
-      <anonymous>true</anonymous>
+      <name>g</name>
+      <anonymous>false</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-31 17:12:38.389 UTC</lastRunResult>
+  <lastRunResult>2016-10-31 17:16:56.473 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>allybank.glossaryupdateprocess</packageName>
