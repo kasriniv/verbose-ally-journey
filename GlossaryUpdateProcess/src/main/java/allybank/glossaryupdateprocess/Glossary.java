@@ -12,12 +12,14 @@ public class Glossary implements java.io.Serializable
    private java.lang.String termid;
    private java.lang.String termname;
    private java.lang.String associatedBU;
-   @org.kie.api.definition.type.Label(value = "Status of approval by Editor")
+   @org.kie.api.definition.type.Label("Status of approval by Editor")
    private java.lang.Boolean editstatus;
    private java.lang.Boolean reviewstatus;
    private java.lang.Boolean approvestatus;
    private java.lang.Boolean publishstatus;
    private java.lang.Boolean sendtoMDM;
+
+   private java.lang.String reviewer;
 
    public Glossary()
    {
@@ -103,10 +105,21 @@ public class Glossary implements java.io.Serializable
       this.sendtoMDM = sendtoMDM;
    }
 
+   public java.lang.String getReviewer()
+   {
+      return this.reviewer;
+   }
+
+   public void setReviewer(java.lang.String reviewer)
+   {
+      this.reviewer = reviewer;
+   }
+
    public Glossary(java.lang.String termid, java.lang.String termname,
          java.lang.String associatedBU, java.lang.Boolean editstatus,
          java.lang.Boolean reviewstatus, java.lang.Boolean approvestatus,
-         java.lang.Boolean publishstatus, java.lang.Boolean sendtoMDM)
+         java.lang.Boolean publishstatus, java.lang.Boolean sendtoMDM,
+         java.lang.String reviewer)
    {
       this.termid = termid;
       this.termname = termname;
@@ -116,6 +129,7 @@ public class Glossary implements java.io.Serializable
       this.approvestatus = approvestatus;
       this.publishstatus = publishstatus;
       this.sendtoMDM = sendtoMDM;
+      this.reviewer = reviewer;
    }
 
 }
