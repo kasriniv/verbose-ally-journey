@@ -1,0 +1,9 @@
+package allybank.glossaryupdateprocess;
+
+import java.lang.Number;
+
+rule "ktestgrl"
+	dialect "mvel"
+	when
+	then
+end
