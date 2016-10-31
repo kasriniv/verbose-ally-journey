@@ -6,7 +6,7 @@ rule "ktestgrl"
 	dialect "mvel"
 	ruleflow-group "ktest2"
 	when
-		gl : Glossary( associatedBU == "Mortgage" )
+		gl : Glossary( associatedBU == "MortgageOther" )
 	then
 		gl.setReviewer( "MortgageGroup" );
 end
