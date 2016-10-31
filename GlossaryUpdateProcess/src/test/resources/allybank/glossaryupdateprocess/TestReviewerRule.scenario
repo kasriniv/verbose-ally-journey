@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>associatedBU</name>
-          <value>Mortgage</value>
+          <value>CapitalMarkets</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -19,7 +19,7 @@
       <name>reviewrule</name>
     </org.drools.workbench.models.testscenarios.shared.ActivateRuleFlowGroup>
     <execution-trace>
-      <executionTimeResult>1</executionTimeResult>
+      <executionTimeResult>0</executionTimeResult>
       <numberOfRulesFired>0</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -38,7 +38,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-31 17:04:09.386 UTC</lastRunResult>
+  <lastRunResult>2016-10-31 17:05:29.323 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>allybank.glossaryupdateprocess</packageName>
