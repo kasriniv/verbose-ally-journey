@@ -8,7 +8,7 @@
       <fieldData>
         <field-data>
           <name>associatedBU</name>
-          <value>CapitalMarkets</value>
+          <value>Mortgage</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -38,7 +38,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-31 17:07:10.511 UTC</lastRunResult>
+  <lastRunResult>2016-10-31 17:08:34.581 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>allybank.glossaryupdateprocess</packageName>
