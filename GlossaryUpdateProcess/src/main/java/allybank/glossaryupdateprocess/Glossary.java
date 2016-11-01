@@ -21,8 +21,6 @@ public class Glossary implements java.io.Serializable
 
    private java.lang.String reviewer;
 
-   private java.lang.String reviewerName;
-
    public Glossary()
    {
    }
@@ -122,21 +120,11 @@ public class Glossary implements java.io.Serializable
       return this.termid + ":" + this.termname + ":" + this.associatedBU + ":" + this.editstatus + ":" + this.reviewer + ":" + "alldone";
    }
 
-   public java.lang.String getReviewerName()
-   {
-      return this.reviewerName;
-   }
-
-   public void setReviewerName(java.lang.String reviewerName)
-   {
-      this.reviewerName = reviewerName;
-   }
-
    public Glossary(java.lang.String termid, java.lang.String termname,
          java.lang.String associatedBU, java.lang.Boolean editstatus,
          java.lang.Boolean reviewstatus, java.lang.Boolean approvestatus,
          java.lang.Boolean publishstatus, java.lang.Boolean sendtoMDM,
-         java.lang.String reviewer, java.lang.String reviewerName)
+         java.lang.String reviewer)
    {
       this.termid = termid;
       this.termname = termname;
@@ -147,7 +135,6 @@ public class Glossary implements java.io.Serializable
       this.publishstatus = publishstatus;
       this.sendtoMDM = sendtoMDM;
       this.reviewer = reviewer;
-      this.reviewerName = reviewerName;
    }
 
 }
