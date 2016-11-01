@@ -11,15 +11,7 @@
 <property name="outputBinding" value="Glossary/associatedBU"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="Glossary_reviewer" type="InputText" id="1296035790">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;reviewer (Glossary)quot;"/>
-<property name="readonly" value="false"/>
-<property name="inputBinding" value="Glossary/reviewer"/>
-<property name="outputBinding" value="Glossary/reviewer"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="2" name="Glossary_termid" type="InputText" id="66948228">
+<field position="1" name="Glossary_termid" type="InputText" id="66948228">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;termid (Glossary)quot;"/>
 <property name="readonly" value="false"/>
@@ -27,7 +19,7 @@
 <property name="outputBinding" value="Glossary/termid"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="3" name="Glossary_termname" type="InputText" id="579413836">
+<field position="2" name="Glossary_termname" type="InputText" id="579413836">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;termname (Glossary)quot;"/>
 <property name="readonly" value="false"/>
